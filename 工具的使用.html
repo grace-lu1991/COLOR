@@ -26,7 +26,23 @@ function getColor(r,g,b){
     var g=randomInt(0,255);
     var b=randomInt(0,255);
     var color='rgb('+r+','+g+','+b+')'
+    return color;
 }
+var color=getColor();
+console.log(color);
+// .随机十六进制颜色
+    function random16Color(){
+ var color=['#']
+ for(var i=0;i<arr.length;i++){
+     var r=Math.floor(Math.random() * arr.length);
+     color.push(r)
+ }
+
+return color.join('')
+    }
+    console.log(random16Colo())
+
+
 
 
 </script>
